@@ -7,6 +7,9 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main, header {
@@ -14,14 +17,16 @@ main, header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 75%;
+    gap: 1.5rem;
 }
 
 .apresentacao {
     display: flex;
     background-color: rgb(240, 196, 196);
-    padding: 25px;
-    width: 75%;
-    
+    padding: 25px;   
+    width: 100%;
+    gap: 1.5rem;
 }
 
 .texto {
@@ -29,7 +34,7 @@ main, header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    
 }
 
 .fotoPerfil {
@@ -38,7 +43,6 @@ main, header {
 }
 
 .habilidades {
-    width: 75%;
     display: flex;
     flex-direction: column;
 }
@@ -52,12 +56,36 @@ main, header {
     gap: 1rem;
 }
 
-.softSkills ul, .hardSkills ul {
+.softSkills ul, .hardSkills ul, .extras ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    
-    
+    gap: 1.5rem;
+        
+}
+
+.portifolio, .extras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+
+}
+
+.imagensPortifolio {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portifolio img {
+    width: 300px;
+}
+
+li {
+    list-style-type: none;
 }
 
 
