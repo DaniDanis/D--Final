@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 body {
@@ -23,6 +24,13 @@ main, header {
     
 }
 
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
 
 .fotoPerfil {
     border-radius: 100%;
@@ -42,6 +50,14 @@ main, header {
     align-items: center;
     padding: 25px;
     gap: 1rem;
+}
+
+.softSkills ul, .hardSkills ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    
 }
 
 
