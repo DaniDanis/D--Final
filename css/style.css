@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main, header {
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao {
+    display: flex;
+    background-color: rgb(240, 196, 196);
+    padding: 25px;
+    width: 75%;
+    
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 1rem;
+}
+
+.fotoPerfil {
+    border-radius: 100%;
+    width: 250px;
+}
