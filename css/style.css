@@ -4,6 +4,8 @@
     box-sizing: border-box;
     text-align: justify;
     scroll-behavior: smooth;
+    line-height: 1.5em;
+    transition: all 0.5;
 }
 
 body {
@@ -46,6 +48,13 @@ main {
 .fotoPerfil {
     border-radius: 100%;
     width: 250px;
+
+}
+
+.conteudoApresentacao {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .habilidades {
@@ -121,6 +130,15 @@ li {
 
 .softSkills > ul > li > img {
     border-radius: 15px;
+    width: 320px;
+}
+
+.calma {
+    margin-right: 91px;
+}
+
+.liderenca {
+    margin-right: 55px;
 }
 
 
