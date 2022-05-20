@@ -68,6 +68,7 @@ main {
 
 .softSkills ul, .hardSkills ul, .extras ul {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
     gap: 1.5rem;
@@ -112,6 +113,15 @@ li {
     color: white;
 }
 
+.softSkills > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.softSkills > ul > li > img {
+    border-radius: 15px;
+}
 
 
 
