@@ -149,10 +149,11 @@ li {
     width: 100%;
 }
 
-@media (max-width:320px) {
+@media (min-width:320px) {
 
     .conteudoApresentacao {
         flex-direction: column;
+
     }
 
     img.fotoPerfil {
@@ -185,123 +186,4 @@ li {
         width: 100%;
     }   
 }
-
-@media (max-width:375px) {
-
-    .conteudoApresentacao {
-        flex-direction: column;
-    }
-
-    img.fotoPerfil {
-        width: 50vw;
-    }
-    .softSkills > ul > li > img {
-        width: 75vw;
-        order: -1;
-    }
-    .softSkills > ul > li > h3 {        
-        order: -2;
-    }
-
-
-    li {
-        flex-direction: column;
-    }
-    .calma, .liderenca{
-        margin: 0;
-    }
-
-    .extras > ul > li > img {
-        width: 75vw;
-    }
-
-    .extras > ul > li {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        width: 100%;
-    }   
-}
-
-@media (max-width:425px) {
-
-    .conteudoApresentacao {
-        flex-direction: column;
-    }
-
-    img.fotoPerfil {
-        width: 50vw;
-    }
-    .softSkills > ul > li > img {
-        width: 75vw;
-        order: -1;
-    }
-    .softSkills > ul > li > h3 {        
-        order: -2;
-    }
-
-
-    li {
-        flex-direction: column;
-    }
-    .calma, .liderenca{
-        margin: 0;
-    }
-
-    .extras > ul > li > img {
-        width: 75vw;
-    }
-
-    .extras > ul > li {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        width: 100%;
-    }   
-}
-
-@media (max-width:768px) {
-
-    .conteudoApresentacao {
-        flex-direction: column;
-    }
-
-    img.fotoPerfil {
-        width: 35vw;
-    }
-    .softSkills > ul > li > img {
-        width: 50vw;
-        order: -1;
-    }
-    .softSkills > ul > li > h3 {        
-        order: -2;
-    }
-
-
-    li {
-        flex-direction: column;
-    }
-    .calma, .liderenca{
-        margin: 0;
-    }
-
-    .extras > ul > li > img {
-        width: 75vw;
-    }
-
-    .extras > ul > li {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        width: 100%;
-    }   
-}
-
-
-
-
-
-
-
-
 
