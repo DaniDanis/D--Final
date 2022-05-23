@@ -149,7 +149,25 @@ li {
     width: 100%;
 }
 
-@media (min-width:320px) {
+.menuLateral {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1750px;
+    top: 250px;
+    font-size: 1.5rem;        
+}
+
+.menuLateral > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.menuLateral > ul > li > a:hover {
+    color: gray;
+}
+
+@media (max-width:425px) {
 
     .conteudoApresentacao {
         flex-direction: column;
