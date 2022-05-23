@@ -21,7 +21,8 @@ main, header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100vw;
     gap: 1.5rem;
 }
 
@@ -139,6 +140,51 @@ li {
 
 .liderenca {
     margin-right: 55px;
+}
+
+.extras > ul > li {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+@media (max-width:320px) {
+
+    .conteudoApresentacao {
+        flex-direction: column;
+    }
+
+    img.fotoPerfil {
+        width: 50vw;
+    }
+    .softSkills > ul > li > img {
+        width: 75vw;
+        order: -1;
+    }
+    .softSkills > ul > li > h3 {        
+        order: -2;
+    }
+
+
+    li {
+        flex-direction: column;
+    }
+    .calma, .liderenca{
+        margin: 0;
+    }
+
+    .extras > ul > li > img {
+        width: 75vw;
+    }
+
+    .extras > ul > li {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+    
+   
 }
 
 
