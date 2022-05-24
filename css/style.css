@@ -15,6 +15,9 @@ body, html {
     flex-direction: column;
     align-items: center;
     background-color: #a2d8d8;
+    /*background-image: url(../imgs/seraphine-kda-more-all-out-lol-uhdpaper.com-4K-8.1153.jpg);
+    background-repeat: none;
+    background-size: 100%;*/
 }
 
 main, header {
@@ -23,7 +26,7 @@ main, header {
     align-items: center;
     flex-direction: column;
     max-width: 1200px;
-    width: 100vw;
+    width: 75vw;
     gap: 1.5rem;
 }
 
@@ -33,7 +36,7 @@ main {
 
 .apresentacao {
     display: flex;
-    background-color: #f0c4c4;
+    background-color: pink;
     padding: 25px;   
     width: 100%;
     gap: 1.5rem;
@@ -116,13 +119,6 @@ li {
     width: 45%;
 }
 
-.botaoInicio {
-    position: fixed;
-    left: 1850px;
-    bottom: 15px;
-    font-size: 35px;
-    color: white;
-}
 
 .softSkills > ul > li {
     display: flex;
@@ -178,7 +174,7 @@ li {
         width: 50vw;
     }
     .softSkills > ul > li > img {
-        width: 75vw;
+        width: 60vw;
         order: -1;
     }
     .softSkills > ul > li > h3 {        
@@ -203,5 +199,10 @@ li {
         gap: 1.5rem;
         width: 100%;
     }   
-}
+    .menuLateral > ul > li > a {
+        display: none;
+
+    }
+
+ }
 
