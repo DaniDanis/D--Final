@@ -15,9 +15,10 @@ body, html {
     flex-direction: column;
     align-items: center;
     background-color: #a2d8d8;
-    /*background-image: url(../imgs/seraphine-kda-more-all-out-lol-uhdpaper.com-4K-8.1153.jpg);
-    background-repeat: none;
-    background-size: 100%;*/
+    background-image: url(../imgs/seraphine.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 main, header {
@@ -151,16 +152,28 @@ li {
     position: fixed;
     left: 2%;
     top: 35%;
-    font-size: 1.5rem;        
+    font-size: 1.5rem;  
+          
 }
 
 .menuLateral > ul > li > a {
     text-decoration: none;
-    color: black;
+    color: white;
+    
 }
 
 .menuLateral > ul > li > a:hover {
     color: gray;
+}
+
+.hardSkills > img {
+    width: 10vw;
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width:425px) {
