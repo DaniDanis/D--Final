@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     line-height: 1.5em;
     transition: all 0.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html {
@@ -15,7 +16,8 @@ body, html {
     flex-direction: column;
     align-items: center;
     background-color: #a2d8d8;
-    background-image: url(../imgs/seraphine.jpeg);
+    background-image: url(../imgs/Buserteco.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -27,20 +29,21 @@ main, header {
     align-items: center;
     flex-direction: column;
     max-width: 1200px;
-    width: 75vw;
-    gap: 1.5rem;
+    width: 75vw;    
 }
 
 main {
     background-color: azure;
+    background-color: transparent;
 }
 
 .apresentacao {
     display: flex;
-    background-color: pink;
+    background-color: azure;
     padding: 25px;   
     width: 100%;
-    gap: 1.5rem;
+    gap: 1.5rem;    
+    margin-top: 100vh;
 }
 
 .texto {
@@ -79,6 +82,7 @@ main {
     align-items: center;
     padding: 25px;
     gap: 1rem;
+    background-color: white;
 }
 
 .softSkills ul, .hardSkills ul, .extras ul {
@@ -108,7 +112,7 @@ main {
 }
 
 .portifolio img {
-    height: 400px;
+    height: 600px;
     border-radius: 15px;
 }
 
@@ -176,6 +180,60 @@ a {
     color: black;
 }
 
+header > h1 {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    border-radius: 15px;
+}
+
+.xayah {
+    width: 100px;
+    border-radius: 100%;
+
+}
+
+.jogosOnline, .esportes {
+    align-items: center;
+}
+
+.esportes > img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.texto {
+    font-size: 1.3rem;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.5rem
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.9rem;
+}
+
+main, .apresentacao {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main, .extras {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.extras > ul > li > p > a:hover {
+    border-bottom: solid 2px;
+}
+
 @media (max-width:425px) {
 
     .conteudoApresentacao {
@@ -216,6 +274,7 @@ a {
         display: none;
 
     }
+    
 
  }
 
