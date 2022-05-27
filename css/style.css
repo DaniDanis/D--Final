@@ -16,10 +16,10 @@ body, html {
     flex-direction: column;
     align-items: center;
     background-color: #a2d8d8;
-    background-image: url(../imgs/Buserteco.jpg);
+    background-image: url(../imgs/seraphine.jpeg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;    
     background-attachment: fixed;
 }
 
@@ -33,8 +33,9 @@ main, header {
 }
 
 main {
-    background-color: azure;
-    background-color: transparent;
+    background-color: #055f5f;
+    background: linear-gradient(#90dbdb 20%, #48a5a5 70%);   
+    margin-top: 45vh;
 }
 
 .apresentacao {
@@ -43,7 +44,6 @@ main {
     padding: 25px;   
     width: 100%;
     gap: 1.5rem;    
-    margin-top: 100vh;
 }
 
 .texto {
@@ -184,7 +184,8 @@ header > h1 {
     background-color: white;
     position: fixed;
     top: 0px;
-    border-radius: 15px;
+    width: 100%;
+    text-align: center;
 }
 
 .xayah {
@@ -199,7 +200,7 @@ header > h1 {
 
 .esportes > img {
     width: 100px;
-    border-radius: 100%;
+    
 }
 
 .texto {
@@ -234,6 +235,47 @@ main, .extras {
     border-bottom: solid 2px;
 }
 
+.gambiarraJogosOnline {
+    margin-left: 36px;
+    text-align: center;
+    width: 152px;
+}
+
+.hardSkills, .softSkills, .extras, .softSkills, .portifolio, .apresentacao {
+    background-color: transparent;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 750px;
+    
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 15px;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-color: #99678e;
+      border-radius: 2px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+      border-radius: 15px;
+  }
+
+.hardSkills > ul > li {
+    display: flex;
+    flex-direction: column;
+}
+
+.hardSkills > ul > li > progress {
+    align-self: center;
+}
+
+
 @media (max-width:425px) {
 
     .conteudoApresentacao {
@@ -260,10 +302,6 @@ main, .extras {
         margin: 0;
     }
 
-    .extras > ul > li > img {
-        width: 75vw;
-    }
-
     .extras > ul > li {
         flex-direction: column;
         align-items: center;
@@ -274,7 +312,33 @@ main, .extras {
         display: none;
 
     }
-    
 
- }
+    .hardSkills > img {
+        width: 75%;
+    }
+
+    .portifolio img {
+        height: 450px;
+    }
+
+    .ferumbras {
+        width: 35vw;
+    }
+
+    .xayah {
+        width: 60vw;
+    }
+
+    .esportes > img {
+        width: 60vw;
+        border-radius: 15px;
+    }
+
+    .gambiarraJogosOnline {
+        margin-left: 0px;
+        text-align: center;
+        width: 152px;
+    }
+    
+}
 
